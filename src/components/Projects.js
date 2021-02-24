@@ -10,6 +10,7 @@ import CardColumns from 'react-bootstrap/CardColumns';
 class Projects extends React.Component{
     render(){
         return(
+            <div id="projectContainer">
             <Container>
                 <Row>
                     <Col>
@@ -17,8 +18,8 @@ class Projects extends React.Component{
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <CardColumns>
-                        <Card className="black" style={{width: '25rem'}}>
+                    <CardColumns style={{marginLeft: 'auto', marginRight: 'auto'}}>
+                        <Card className="black" style={{width: '20rem'} }>
                             <Card.Img variant="top" src="/images/convo.png"/>
                             <Card.Body>
                             <Card.Title><strong>Convo</strong></Card.Title>
@@ -29,7 +30,7 @@ class Projects extends React.Component{
                             <Card.Footer>Tech Stack: React, Node, Express, Axios, IBM Watson (API) and Bootstrap</Card.Footer>
                             
                         </Card>
-                        <Card className="pink" style={{width: '25rem'}}>
+                        <Card className="pink" style={{width: '20rem'}}>
                             <Card.Img variant="top" src="/images/burning.png"/>
                             <Card.Body>
                             <Card.Title><strong>Burning Airlines</strong></Card.Title>
@@ -38,7 +39,7 @@ class Projects extends React.Component{
                             </Card.Body>
                             <Card.Footer>Tech Stack: React, Ruby-on-Rails and Axios</Card.Footer>
                         </Card>
-                        <Card className="navy" style={{width: '25rem'}}>
+                        <Card className="navy" style={{width: '20rem'}}>
                             <Card.Img variant="top" src="/images/krave_orig.png"/>
                             <Card.Body>
                             <Card.Title><strong>Krave</strong></Card.Title>
@@ -52,7 +53,7 @@ class Projects extends React.Component{
                     </CardColumns>
                 </Row>
             </Container>
-            
+            </div>
         ) // return
     } // render()
 } // class Projects

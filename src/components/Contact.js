@@ -16,8 +16,8 @@ class Contact extends React.Component {
                     <h2 className="sectionH2">Contact</h2>
                     </Col>
                 </Row>
-                <Row>
-                    <CardColumns>
+                <Row className="justify-content-md-center">
+                    <CardColumns style={{marginLeft: 'auto', marginRight: 'auto'}}>
                     <Card style={{width: '16rem', textAlign: 'center'}}>
                             <Card.Img className="contactImg" variant="top" src="/images/GitHub-Mark-32px.png"/>
                             <Card.Body>
@@ -35,7 +35,7 @@ class Contact extends React.Component {
                         <Card style={{width: '16rem', textAlign: 'center'}}>
                             <Card.Img className="contactImg" variant="top" src="/images/email.png"/>
                             <Card.Body>
-                            <Card.Title><strong>Github</strong></Card.Title>
+                            <Card.Title><strong>Email</strong></Card.Title>
                             <Card.Link href="mailto:alistair.g.gray@gmail.com">alistair.g.gray@gmail.com</Card.Link>
                             </Card.Body>                     
                         </Card>

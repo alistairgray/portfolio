@@ -18,7 +18,7 @@ class PortfolioApp extends React.Component {
     render(){
         return(
             <body id="structure">
-                    <Navbar sticky="top" bg="light" variant="light">
+                    <Navbar sticky="top" bg="light" variant="light" expand="lg">
                         <Navbar.Brand href="#top">Alistair Gray</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">

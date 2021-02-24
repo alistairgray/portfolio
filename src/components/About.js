@@ -10,19 +10,20 @@ class About extends React.Component{
     render(){
         return(
             <div>
-                <Container>
+                <Container style={{marginLeft: 'auto', marginRight: 'auto'}}>
                     <Row>
                         <Col>
                             <h2 className="sectionH2">About Me</h2>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col xs={4} md={4}>
+                    <Row className="justify-content-md-center">
+                        <Col xs={10} md={4}>
                             
                                 <Card.Img id="heroImg" src="/images/me.jpg" />
                             
                         </Col>
-                        <Col xs={6} md={8}>
+                        
+                        <Col xs={8} md={6}>
                             <Card className="charcoal">
                                 <Card.Body>
                                 <Card.Text>
@@ -40,6 +41,7 @@ class About extends React.Component{
                                 </Card.Body>
                             </Card>
                         </Col>
+                        
                     </Row>
                 </Container>
             </div>
