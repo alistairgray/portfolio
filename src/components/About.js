@@ -10,7 +10,7 @@ class About extends React.Component{
     render(){
         return(
             <div>
-                <Container style={{marginLeft: 'auto', marginRight: 'auto'}}>
+                <Container>
                     <Row>
                         <Col>
                             <h2 className="sectionH2">About Me</h2>

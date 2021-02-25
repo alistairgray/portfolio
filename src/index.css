@@ -104,7 +104,12 @@ img {
   font-weight: 600;
 }
 
-.notNav:hover {
+.pubLink {
+  color: black !important;
+  font-weight: 600;
+}
+
+.notNav:hover, .pubLink:hover {
   text-decoration: underline !important;
 }
 
