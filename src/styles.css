@@ -1,0 +1,368 @@
+/* Colour Palette */
+/* ----------------------------------------------------- */
+/* #003049 - Navy */
+/* #D62828 - Red */
+/* #F77F00 - Orange*/
+/* #FCBF49 - Caramel */
+/* #EAE2B7 - Lemon */
+
+/* ----------------------------------------------------- */
+/* Fonts */
+@font-face {
+    font-family: 'Karla';
+    src: url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+}
+@font-face {
+    font-family: 'Merriweather';
+    src: url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+}
+
+/* ----------------------------------------------------- */
+/* Global Styles */
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #343434; /* dark gray - almost black */
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;  
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;   
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', sans-serif; 
+    font-weight: 600;
+}
+
+.content-wrap {
+    max-width: 1400px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+/* ----------------------------------------------------- */
+/* Nav */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    font-weight: 600;
+    transition: all .7s ease-in;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #ffffff;
+  }
+
+.navbar a {
+    padding: 5px;
+    color: black;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------------- */
+/* About Me */
+
+.about {
+    background-color: #03071E;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.about-item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.about-item img {
+    max-width: 300px;
+    object-fit: contain;
+}
+
+.about-item p {
+    font-size: 18pt;
+    align-self: center;
+    max-width: 600px;
+    line-height: 1.55;
+}
+
+/* ----------------------------------------------------- */
+/* Hero */
+
+.hero {
+    background: black;
+    color: white;
+    padding-bottom: 30px;
+    /* border: 3px solid yellow; */
+}
+
+.hero-item {
+    display: flex;
+}
+
+.hero-item img {
+    padding: 15px;
+    max-width: 1200px;
+    object-fit: contain;
+    /* border: 3px solid red; */
+}
+
+.hero-item p {
+    font-size: 18pt;
+    align-self: center;
+    /* border: 3px solid blue; */
+}
+
+
+/* ----------------------------------------------------- */
+/* Skillset */
+
+.skillset {
+    background-color: #ffffff;
+    color: #003049;
+    padding: 25px 10px; 
+}
+
+.skill-item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.skill-item img {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.skill-item p {
+    text-align: center;
+    font-size: 18pt;
+}
+
+#icons {
+    float: right;
+    color: grey;
+}
+
+#icons a {
+    color: grey;
+}
+
+
+/* ----------------------------------------------------- */
+/* Projects */
+
+.projects {
+    background-color: #003049;
+    color: #ffffff;
+    padding: 15px; 
+    margin: 0 auto;
+}
+
+.projects img {
+    max-width: 400px;
+    margin-bottom: 15px;
+}
+
+.project-item-row {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 300px;
+    
+}
+
+.project-item {
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 5px;
+    background-color: white;
+    color: #003049;
+}
+
+.project-item p {
+    font-size: 18px;
+}
+
+/* ----------------------------------------------------- */
+/* Publications */
+
+.publications {
+    background-color: #ffffff;
+    color: #003049;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.publications p {
+    font-style: italic;
+}
+
+.publications img {
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    padding: 15px;
+}
+
+.publications-item-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    /* padding: 5px 15px; */
+    
+}
+
+.publications-item {
+    padding: 15px;
+    border: solid 5px #003049;
+    margin: 15px;
+    max-width: 350px;
+    justify-content: center;
+}
+
+.publications-item p {
+    font-size: 16px;
+}
+
+
+/* ----------------------------------------------------- */
+/* Contact */
+
+.contact {
+    background-color: #03071E;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+.contact-list li {
+    margin-bottom: 15px;
+}
+
+
+/* ----------------------------------------------------- */
+/* Responsiveness */
+@media screen and 
+(max-width: 385px){ 
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    img {
+        max-width: 300px;
+    }
+
+    .about p {
+        font-size: 15pt;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar-mobile {
+        max-width: 100%;
+        padding: 0;
+        bottom: 0;
+        flex-direction: column;
+    }
+
+    .hero-item {
+        flex-direction: column;
+    }
+
+    .hero-item img {
+        max-width: 365px;
+    }
+
+    .hero-item p {
+        font-size: 15pt;
+        /* border: 3px solid blue; */
+    }
+
+    .projects {
+        padding: 0;
+    }
+
+    .project-item-row {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .project-item {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .projects img {
+        max-width: 225px !important;
+    }
+
+    .contact-list a {
+        text-decoration: underline;
+    }
+
+}
