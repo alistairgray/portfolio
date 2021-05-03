@@ -357,6 +357,10 @@ h1, h2, h3 {
         text-align: center;
     }
 
+    .publications h3 {
+        text-align: center;
+    }
+
     .projects img {
         max-width: 225px !important;
     }
@@ -364,5 +368,6 @@ h1, h2, h3 {
     .contact-list a {
         text-decoration: underline;
     }
+    
 
 }

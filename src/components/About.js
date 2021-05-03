@@ -8,7 +8,7 @@ function About() {
                     <img src="/images/me.png" alt="profile picture of Alistair Gray" />
                     <p>Hi! My name is Alistair Gray
                     <br />
-                    I'm a Graduate Software Engineer and Author of Finding Your Fire Within a Burning World.
+                    I am a Graduate Software Engineer and Author of Finding Your Fire Within a Burning World.
                     <br />
                     I am motivated by organisations who seek to support the growth of its people and have a desire to make a transformative impact on society. 
                     </p>
