@@ -28,44 +28,44 @@ function Publications() {
                 </div>
 
                 <div className="publications-item">
-                    <img src="/images/vertical-farm.jpeg"/>
-                    <h3>Modernising our Agricultural Sector</h3>
+                    <a href="https://www.linkedin.com/pulse/modernising-our-agricultural-sector-alistair-gray/" target="_blank"><img src="/images/vertical-farm.jpeg"/></a>
+                    <a href="https://www.linkedin.com/pulse/modernising-our-agricultural-sector-alistair-gray/" target="_blank"><h3>Modernising our Agricultural Sector</h3></a>
                     <p>I talk about how Australia has an incredible advantage utilising renewables and vertical farming.</p>
                 </div>
 
                 <div className="publications-item">
-                        <img src="/images/rocket-lab.jpeg"/>
-                        <h3>Why Australia needs a space agency</h3>
-                        <p>As of 2019 we now have an agency. But prior to that announcement I was advocating why it was important to the future of our economy.</p>
+                    <a href="https://medium.com/@alistair.g.gray/why-australia-needs-a-space-agency-and-how-it-could-generate-not-only-new-jobs-but-new-industries-82bcb1e36f71" target="_blank"><img src="/images/rocket-lab.jpeg"/></a>
+                    <a href="https://medium.com/@alistair.g.gray/why-australia-needs-a-space-agency-and-how-it-could-generate-not-only-new-jobs-but-new-industries-82bcb1e36f71" target="_blank"><h3>Why Australia needs a space agency</h3></a>
+                    <p>As of 2019 we now have an agency. But prior to that announcement I was advocating why it was important to the future of our economy.</p>
                 </div>
 
                 <div className="publications-item">
-                    <img src="/images/hands.jpeg"/>
-                    <h3>The fight against complexity</h3>
+                    <a href="https://medium.com/@alistair.g.gray/the-fight-against-complexity-4d8e7a5afcb3" target="_blank"><img src="/images/hands.jpeg"/></a>
+                    <a href="https://medium.com/@alistair.g.gray/the-fight-against-complexity-4d8e7a5afcb3" target="_blank"><h3>The fight against complexity</h3></a>
                     <p>The final article in the series exploring information overload at scale.</p>
                 </div>
 
                 <div className="publications-item">
-                    <img src="/images/iota.jpeg"/>
-                    <h3>Blockchain and Agile</h3>
+                    <a href="" target="_blank"><img src="/images/iota.jpeg"/></a>
+                    <a href="" target="_blank"><h3>Blockchain and Agile</h3></a>
                     <p>I explore the mechanisms of both blockchain and blockless chains alongside agile to adequately scale organisations without compromising cognitive load.</p>
                 </div>
 
                 <div className="publications-item">
-                    <img src="/images/apps.jpeg"/>
-                    <h3>Blockchain and Agile</h3>
+                    <a href="https://medium.com/@alistair.g.gray/blockchain-and-agile-using-the-strengths-from-both-to-improve-the-integration-of-agile-at-scale-c8935d506c17" target="_blank"><img src="/images/apps.jpeg"/></a>
+                    <a href="https://medium.com/@alistair.g.gray/blockchain-and-agile-using-the-strengths-from-both-to-improve-the-integration-of-agile-at-scale-c8935d506c17" target="_blank"><h3>Blockchain and Agile</h3></a>
                     <p>Messaging app saturation and how it kills workplace productivity.</p>
                 </div>
 
                 <div className="publications-item">
-                    <img src="/images/frustrated.png"/>
-                    <h3>Why Email needs to die a fiery death…and be reborn</h3>
+                    <a href="https://medium.com/@alistair.g.gray/why-email-needs-to-die-a-fiery-death-and-be-reborn-89b1e5c0d554" target="_blank"><img src="/images/frustrated.png"/></a>
+                    <a href="https://medium.com/@alistair.g.gray/why-email-needs-to-die-a-fiery-death-and-be-reborn-89b1e5c0d554" target="_blank"><h3>Why Email needs to die a fiery death…and be reborn</h3></a>
                     <p>I challenge the idea that email and messaging apps need a major rethink.</p>
                 </div>
 
                 <div className="publications-item">
-                    <img src="/images/brain.jpeg"/>
-                    <h3>Why we need to have a chat about Information Overload</h3>
+                    <a href="https://medium.com/@alistair.g.gray/why-we-need-to-have-a-chat-about-information-overload-5b62d4c57958" target="_blank"><img src="/images/brain.jpeg"/></a>
+                    <a href="https://medium.com/@alistair.g.gray/why-we-need-to-have-a-chat-about-information-overload-5b62d4c57958" target="_blank"><h3>Why we need to have a chat about Information Overload</h3></a>
                     <p>The original article that outlines why information overload is a major problem that is only being marginally tackled.</p>
                 </div>
 
