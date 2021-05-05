@@ -10,20 +10,20 @@ function Publications() {
             <div className="publications-item-row">
 
                 <div className="publications-item">
-                    <img src="/images/fire.jpg"/>
-                    <h3>Finding Your Fire Within a Burning World</h3>
+                    <a href="https://www.amazon.com.au/Finding-Your-Within-Burning-World-ebook/dp/B08L6TX3XK/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1620094945&sr=8-1" target="_blank"><img src="/images/fire.jpg"/></a>
+                    <a href="https://www.amazon.com.au/Finding-Your-Within-Burning-World-ebook/dp/B08L6TX3XK/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1620094945&sr=8-1" target="_blank"><h3>Finding Your Fire Within a Burning World</h3></a>
                     <p>This is my first published book which seeks to help people who are going through change amongst the challenges that this world offers.</p>
                 </div>
 
                 <div className="publications-item">
-                    <img src="/images/dog.jpeg"/>
-                    <h3>Removing the ambiguity in LinkedIn's application process</h3>
+                    <a href="https://www.linkedin.com/pulse/removing-ambiguity-linkedins-application-process-alistair-gray/" target="_blank"><img src="/images/dog.jpeg"/></a>
+                    <a href="https://www.linkedin.com/pulse/removing-ambiguity-linkedins-application-process-alistair-gray/" target="_blank"><h3>Removing the ambiguity in LinkedIn's application process</h3></a>
                     <p>Here I discuss some user experience gaps in the hiring phase for job applicants.</p>
                 </div>
 
                 <div className="publications-item">
-                    <img src="/images/spacex-heavy.jpeg"/>
-                    <h3>The case for a space hub in Geelong</h3>
+                <a href="https://www.linkedin.com/pulse/case-space-hub-geelong-alistair-gray/" target="_blank"><img src="/images/spacex-heavy.jpeg"/></a>
+                <a href="https://www.linkedin.com/pulse/case-space-hub-geelong-alistair-gray/" target="_blank"><h3>The case for a space hub in Geelong</h3></a>
                     <p>Here I detail an idea for a space manufacturing and data science hub in the region of Geelong, Victoria.</p>
                 </div>
 

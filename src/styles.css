@@ -277,6 +277,13 @@ h1, h2, h3 {
     font-size: 16px;
 }
 
+.publications a {
+    color: #003049;
+}
+
+.publications a:hover {
+    text-decoration: underline;
+}
 
 /* ----------------------------------------------------- */
 /* Contact */
@@ -313,8 +320,58 @@ h1, h2, h3 {
 
 /* ----------------------------------------------------- */
 /* Responsiveness */
+
+@media screen and (max-width: 1370px){
+    .hero-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-item img {
+        max-width: 800px;
+        align-self: center;
+    }
+
+    .project-item {
+        max-width: 400px;
+    }
+
+    .project-item img {
+        max-width: 280px;
+    }
+
+    .project-item a {
+        font-weight: 600;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .about {
+        text-align: center;
+    }
+
+    .project-item-row {
+        flex-direction: column;
+        max-width: 800px;        
+    }
+
+    .project-item {
+        justify-content: center;
+        max-width: 800px;
+        align-self: center;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .project-item img {
+        max-width: 600px;
+    }
+}
+
 @media screen and 
-(max-width: 385px){ 
+(max-width: 650px){ 
 
     h1 {
         font-size: 40px;
