@@ -6,6 +6,18 @@ function Projects() {
                 <h1>Projects</h1>
                 
                 <div className="project-item-row">  
+
+                    <div className="project-item">
+                        
+                        <h2>Portfolio Site</h2>
+                        <img src="/images/career-overview.PNG" alt="career overview"/>
+                        <p>
+                            My portfolio was originally designed and built in a very short space of time. I have since redesigned the majority of it and have given it a fresh look. It also no longer relies on frameworks such as Bootstrap and instead uses pure CSS.
+                        </p>
+                        <p>Tech Stack: React, HTML and CSS</p>
+                        <a href="https://github.com/alistairgray/portfolio">Github</a>
+                    </div>
+
                     <div className="project-item">
                         <a href="https://alistairgray.github.io/convo-react-frontend/" target="_blank"><h2>Convo</h2>
                         <a href="https://alistairgray.github.io/convo-react-frontend/" target="_blank"></a><img src="/images/convo.png" alt="convo app"/></a>
