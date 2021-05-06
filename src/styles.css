@@ -104,12 +104,13 @@ h1, h2, h3 {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    column-gap: 130px;
+    column-gap: 150px;
 }
 
 .about-item img {
     max-width: 300px;
     object-fit: contain;
+    margin-right: 2rem;
 }
 
 .about-item p {
