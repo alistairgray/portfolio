@@ -255,6 +255,7 @@ h1, h2, h3 {
     margin-bottom: 15px;
     position: relative;
     padding: 15px;
+    height: 250px;
 }
 
 .publications-item-row {
@@ -262,7 +263,7 @@ h1, h2, h3 {
     justify-content: center;
     flex-direction: row;
     flex-flow: row wrap;
-    /* padding: 5px 15px; */
+    text-align: center;
     
 }
 
