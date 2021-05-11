@@ -1,7 +1,5 @@
 import React from 'react';
 
-import SmoothScroll from './SmoothScroll/SmoothScroll';
-
 import Nav from './Nav';
 import About from './About';
 import Hero from './Hero';
