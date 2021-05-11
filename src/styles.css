@@ -8,14 +8,9 @@
 
 /* ----------------------------------------------------- */
 /* Fonts */
-@font-face {
-    font-family: 'Karla';
-    src: url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
-}
-@font-face {
-    font-family: 'Merriweather';
-    src: url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 /* ----------------------------------------------------- */
 /* Global Styles */
