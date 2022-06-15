@@ -9,6 +9,12 @@ function Publications() {
 
             <div className="publications-item-row">
 
+                <div className='publications-item'>
+                    <a href="https://www.linkedin.com/pulse/repairing-disconnection-recruitment-alistair-gray/" target='_blank'><img src="/images/disconnect.jpg" /></a>
+                    <a href="https://www.linkedin.com/pulse/repairing-disconnection-recruitment-alistair-gray/" target='_blank'><h3>Repairing the disconnection in recruitment</h3></a>
+                    <p>This research led report seeks to understand why many areas of recruitment are disconnected and how those challenges can be overcome.</p>
+                </div>
+
                 <div className="publications-item">
                     <a href="https://www.amazon.com.au/Finding-Your-Within-Burning-World-ebook/dp/B08L6TX3XK/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1620094945&sr=8-1" target="_blank"><img src="/images/fire.jpg"/></a>
                     <a href="https://www.amazon.com.au/Finding-Your-Within-Burning-World-ebook/dp/B08L6TX3XK/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1620094945&sr=8-1" target="_blank"><h3>Finding Your Fire Within a Burning World</h3></a>

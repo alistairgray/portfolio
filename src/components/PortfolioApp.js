@@ -2,10 +2,10 @@ import React from 'react';
 
 import Nav from './Nav';
 import About from './About';
+import Publications from './Publications';
 import Hero from './Hero';
 import Skillset from './Skillset';
 import Projects from './Projects';
-import Publications from './Publications';
 import Contact from './Contact';
 
 
@@ -15,19 +15,20 @@ const PortfolioApp = () => {
                 <Nav />
                 <main>
                     <section id="about" className="about">
+                        <div id="banner"></div>
                         <About />
                     </section>
                     <section id="hero" className="hero">
                         <Hero />
+                    </section>
+                    <section id="publications" className="publications">
+                        <Publications />
                     </section>
                     <section id="skillset" className="skillset">
                         <Skillset />
                     </section>
                     <section id="projects" className="projects">
                         <Projects />
-                    </section>
-                    <section id="publications" className="publications">
-                        <Publications />
                     </section>
 
                 </main>
@@ -36,6 +37,6 @@ const PortfolioApp = () => {
                 </footer>
             </body>
         ) // return
-} // class PortfolioApp
+} // PortfolioApp
 
 export default PortfolioApp
