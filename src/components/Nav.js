@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from 'react';
-
+import React, {useState} from 'react';
+import resume from './assets/data/resume.pdf';
 
 const Nav = () => {
 
@@ -14,13 +14,14 @@ const Nav = () => {
                 <ul className="nav-list">
                     <a href="#about">About</a>
                     <a href="#hero">Career</a>
-                    <a href="#skillset">Skillset</a>
+                    <a href="#examples">Examples</a>
                     <a href="#projects">Projects</a>
                     <a href="#publications">Publications</a>
                     <a href="#contact">Contact</a>
+                    <a href={resume} download="resume.pdf">Download Resume</a>
                 </ul>
             </span>
-        </nav>
+      </nav>
     )
 }
 

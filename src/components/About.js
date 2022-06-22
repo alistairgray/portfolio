@@ -10,6 +10,7 @@ function About() {
                     <br />
                     I am a UX Researcher and Writer.
                     <br />
+                    <br />
                     I write to create change. I have exercised this skill to deliver impactful content through working with others, objective research, balanced storytelling, and passion. 
                     </p>
                 </div>

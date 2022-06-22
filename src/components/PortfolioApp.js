@@ -2,6 +2,7 @@ import React from 'react';
 
 import Nav from './Nav';
 import About from './About';
+import Examples from './Examples';
 import Publications from './Publications';
 import Hero from './Hero';
 import Skillset from './Skillset';
@@ -15,11 +16,13 @@ const PortfolioApp = () => {
                 <Nav />
                 <main>
                     <section id="about" className="about">
-                        <div id="banner"></div>
                         <About />
                     </section>
                     <section id="hero" className="hero">
                         <Hero />
+                    </section>
+                    <section id="examples">
+                        <Examples />
                     </section>
                     <section id="publications" className="publications">
                         <Publications />

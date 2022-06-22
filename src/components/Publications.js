@@ -48,7 +48,7 @@ function Publications() {
                 <div className="publications-item">
                     <a href="https://medium.com/@alistair.g.gray/the-fight-against-complexity-4d8e7a5afcb3" target="_blank"><img src="/images/hands.jpeg"/></a>
                     <a href="https://medium.com/@alistair.g.gray/the-fight-against-complexity-4d8e7a5afcb3" target="_blank"><h3>The fight against complexity</h3></a>
-                    <p>The final article in the series exploring information overload at scale.</p>
+                    <p>The final article in the series exploring information overload at scale. It takes inspiration from guilds and chapters, which are seen in Spotify model setups and utilises them to fix communication challenges.</p>
                 </div>
 
                 <div className="publications-item">
@@ -59,8 +59,8 @@ function Publications() {
 
                 <div className="publications-item">
                     <a href="https://medium.com/@alistair.g.gray/blockchain-and-agile-using-the-strengths-from-both-to-improve-the-integration-of-agile-at-scale-c8935d506c17" target="_blank"><img src="/images/apps.jpeg"/></a>
-                    <a href="https://medium.com/@alistair.g.gray/blockchain-and-agile-using-the-strengths-from-both-to-improve-the-integration-of-agile-at-scale-c8935d506c17" target="_blank"><h3>Blockchain and Agile</h3></a>
-                    <p>Messaging app saturation and how it kills workplace productivity.</p>
+                    <a href="https://medium.com/@alistair.g.gray/blockchain-and-agile-using-the-strengths-from-both-to-improve-the-integration-of-agile-at-scale-c8935d506c17" target="_blank"><h3>Messaging app saturation and how it kills workplace productivity.</h3></a>
+                    <p>This article discusses the problem of continuously adding new messaging apps to organisations to fix communication problems, when this actually amplifies existing issues.</p>
                 </div>
 
                 <div className="publications-item">
