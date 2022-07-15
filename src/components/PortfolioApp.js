@@ -2,11 +2,11 @@ import React from 'react';
 
 import Nav from './Nav';
 import About from './About';
-import Examples from './Examples';
-import Publications from './Publications';
-import Hero from './Hero';
+import Intro from './Intro';
 import Skillset from './Skillset';
-import Projects from './Projects';
+import Examples from './Examples';
+import Companies from './Companies';
+import Publications from './Publications';
 import Contact from './Contact';
 
 
@@ -18,24 +18,23 @@ const PortfolioApp = () => {
                     <section id="about" className="about">
                         <About />
                     </section>
-                    <section id="hero" className="hero">
-                        <Hero />
+                    <section id="intro" className="intro">
+                        <Intro /> 
                     </section>
-                    <section id="examples">
+                    <section id="companies" className="companies">
+                        <Companies />
+                    </section>
+                    <section id="examples" className="examples">
                         <Examples />
-                    </section>
-                    <section id="publications" className="publications">
-                        <Publications />
                     </section>
                     <section id="skillset" className="skillset">
                         <Skillset />
                     </section>
-                    <section id="projects" className="projects">
-                        <Projects />
+                    <section id="publications" className="publications">
+                        <Publications />
                     </section>
-
                 </main>
-                <footer className="contact">
+                <footer id="contact" className="contact">
                     <Contact />
                 </footer>
             </body>

@@ -4,14 +4,20 @@ import React from 'react';
 function Skillset() {
     return (
         <div>
-            <h1>Skillset</h1>
+            <h2>Writing Skillset</h2>
             <section className="skill-item">
-
                 <div>
-                    <img src="/images/icons8-react-native.svg" alt="react"/>
-                    <p>react.js</p>
+                    <img src="/images/icons8-canva.svg" alt="canva"/>
+                    <p>Canva</p>
                 </div>
-
+                <div>
+                    <img src="/images/icons8-sketch.svg" alt="sketch"/>
+                    <p>Sketch</p>
+                </div>
+                <div>
+                    <img src="/images/icons8-figma.svg" alt="figma"/>
+                    <p>Figma</p>
+                </div>
                 <div>
                     <img src="/images/icons8-html-5.svg" alt="html"/>
                     <p>html5</p>
@@ -21,27 +27,9 @@ function Skillset() {
                     <p>css3</p>
                 </div>
                 <div>
-                    <img src="/images/icons8-node-js.svg" alt="node.js"/>
-                    <p>node.js</p>
-                </div>
-                <div>
-                    <img src="/images/icons8-ruby-programming-language.svg" alt="ruby"/>
-                    <p>ruby</p>
-                </div>
-                <div>
-                    <img src="/images/icons8-postgresql.svg" alt="postgresql"/>
-                    <p>PostgreSQL</p>
-                </div>
-                <div>
-                    <img src="/images/icons8-npm.svg" alt="NPM"/>
-                    <p>NPM</p>
-                </div>
-                <div>
-                    <img src="/images/icons8-git.svg" alt="Git"/>
-                    <p>Git</p>
-                </div>
-                
-
+                    <img src="/images/icons8-react-native.svg" alt="react"/>
+                    <p>React</p>
+                </div>            
             </section>
             <div>
                 <span id="icons">Icons supplied by <a href="https://icons8.com">Icons8</a></span>

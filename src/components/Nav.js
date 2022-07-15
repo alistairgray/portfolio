@@ -9,17 +9,20 @@ const Nav = () => {
 
     return(
         <nav className={mobileView ? "navbar-mobile" : "navbar"}>
-            <span><a href="#about">Alistair Gray</a></span>
             <span>
                 <ul className="nav-list">
                     <a href="#about">About</a>
-                    <a href="#hero">Career</a>
+                    <a href="#companies">Companies</a>
                     <a href="#examples">Examples</a>
-                    <a href="#projects">Projects</a>
                     <a href="#publications">Publications</a>
                     <a href="#contact">Contact</a>
-                    <a href={resume} download="resume.pdf">Download Resume</a>
+                    
                 </ul>
+            </span>
+            <span>
+                <a href="https://www.linkedin.com/in/grayalistair">LinkedIn</a>
+                <a href="mailto:alistair.gray@hey.com">Email</a>
+                <a href={resume} download="resume.pdf">Resume</a>
             </span>
       </nav>
     )

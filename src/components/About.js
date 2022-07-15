@@ -3,16 +3,10 @@ import React from 'react';
 function About() {
         return(
             <div className="content-wrap">
-                <h1>About Me</h1>
+                <h2>Alistair Gray</h2>
+                <h1>I write to create change.</h1>
                 <div className="about-item">
-                    <img src="/images/me.png" alt="profile picture of Alistair Gray" />
-                    <p>Hi! My name is Alistair Gray
-                    <br />
-                    I am a UX Researcher and Writer.
-                    <br />
-                    <br />
-                    I write to create change. I have exercised this skill to deliver impactful content through working with others, objective research, balanced storytelling, and passion. 
-                    </p>
+                    <a href="#intro" className='button'>Let's go</a>
                 </div>
             </div>
         ) // return
