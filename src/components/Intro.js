@@ -19,7 +19,7 @@ function Intro() {
                         <h4>Why </h4>
                     </div>
                     <div>
-                        <p>I think writing has the tremendous power to inspire. I have used it create worlds, build bridges and spark interest.</p>
+                        <p>I think writing has the tremendous power to inspire. I have used it to create worlds, build bridges and spark interest.</p>
                     </div>
                 </div>
                 <div className='intro-content-block'>
@@ -33,7 +33,7 @@ function Intro() {
                             I have been writing for the past 6 years with 2 years of dedicated UX writing.
                         </p>
                         <p>
-                            The above includes a mix of technical and copy writing. I also have an active blog via my LinkedIn account.
+                            The above includes a mix of technical and copy writing. I also have an active blog via my <a href="https://www.linkedin.com/in/grayalistair" target='_blank'>LinkedIn </a>account.
                         </p>
                     </div>
                 </div>
