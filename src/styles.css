@@ -157,7 +157,7 @@ h1, h2, h3 {
 /* Intro */
 
 .intro {
-    background-color: #ebd8b7;
+    background-color: #ffffff;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -171,7 +171,7 @@ h1, h2, h3 {
 .intro-content-block {
     color: #003049;
     background-color: #ffffff;
-    border: #003049 5px solid;
+    /* border: #003049 5px solid; */
     border-radius: 5px;
     padding: 25px;
     margin-bottom: 25px;
