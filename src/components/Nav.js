@@ -24,7 +24,7 @@ const Nav = () => {
                 <a href="https://www.linkedin.com/in/grayalistair">LinkedIn</a>
                 <a href="mailto:alistair.gray@hey.com">Email</a>
                 <a href={resume} download="resume.pdf">Resume</a>
-                <a href={portfolio} download="resume.pdf">Resume</a>
+                <a href={portfolio} download="portfolio.pdf">Porfolio</a>
             </span>
       </nav>
     )
