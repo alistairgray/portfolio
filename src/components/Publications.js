@@ -17,6 +17,12 @@ function Publications() {
             <h3>UX Design / Recruitment</h3>
             <div className="publications-item-row">
 
+            <div className='publications-item'>
+
+                <a href="https://www.linkedin.com/pulse/years-experience-what-do-stand-mean-anything-alistair-gray/" target='_blank'><h4>Title:</h4><p>Years of Experience – What do they stand for? Do they mean anything?</p><h4>Year:</h4><p>2022</p></a>
+
+            </div>
+
                 <div className='publications-item'>
 
                     <a href="https://www.linkedin.com/pulse/repairing-disconnection-recruitment-alistair-gray/" target='_blank'><h4>Title:</h4><p>Repairing the disconnection in recruitment</p><h4>Year:</h4><p>2021</p></a>
