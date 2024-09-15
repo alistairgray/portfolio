@@ -19,8 +19,11 @@ function Companies() {
                     <img src="/images/neu21-logo.png" alt="neu21"/>
                 </div>
                 <div>     
-                <img src="/images/ozgrav-logo.png" alt="ozgrav"/>
-                </div>    
+                    <img src="/images/ozgrav-logo.png" alt="ozgrav"/>
+                </div>
+                <div>
+                    <img src="/images/leanspace.png" alt="leanspace"/>
+                </div>
             </div>
         </div>
     )
