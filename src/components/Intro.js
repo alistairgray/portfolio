@@ -30,11 +30,9 @@ function Intro() {
                     </div>
                     <div>
                         <p>
-                            I have been writing for the past 6 years with 2 years of dedicated UX writing.
+                            I have been writing for the past 8 years with 4 years of technical and UX writing
                         </p>
-                        <p>
-                            The above includes a mix of technical and copy writing. I also have an active blog via my <a href="https://www.linkedin.com/in/grayalistair" target='_blank'>LinkedIn </a>account.
-                        </p>
+                        <p><a href="https://leanspace.io/blog/">For my most recent writing, that's not hidden behind NDAs, check out my company's blog</p>
                     </div>
                 </div>
                 <div className='intro-content-block'>
