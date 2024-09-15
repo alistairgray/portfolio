@@ -5,8 +5,14 @@ function Examples() {
         <div className='content-wrap'>
             <div className='examples'>
                 <div className='examples-content'>
-                    <h2>I'm a Writer Generalist</h2>
+                    <h2>I'm a Technical Writer</h2>
                     <h3>The majority of my client work is hidden behind NDAs, however I have included some samples of my writing below.</h3>
+                    <div className='examples-item-row'>
+                        <h3> Easily handle contingencies with Command Sequences</h3>
+                        <p> This article is one of the many that I have written for Leanspace. The articles are aimed at a developers and space engineers, which means that I have to balance the level of content to reach both audiences. 
+                        </p>
+                        <p> The API documentation is hidden behind NDAs, however the elements used in these articles are all currently being used to educate and inform our developer customer base</p>
+                    </div>    
                     <div className='examples-item-row'>
                         <div className='examples-item'>
                             <h3>Repairing the disconnection in recruitment - Article</h3>
