@@ -1,33 +1,81 @@
-import React, {useState} from 'react';
-import resume from './assets/data/resume.pdf';
-import portfolio from './assets/data/portfolio.pdf';
+import React, { useState } from 'react';
+import resume from '../assets/data/resume.pdf';
+import portfolio from '../assets/data/portfolio.pdf';
 
-const Nav = () => {
+const internalNav = [
+  { href: '#about', label: 'About' },
+  { href: '#companies', label: 'Companies' },
+  { href: '#examples', label: 'Examples' },
+  { href: '#publications', label: 'Publications' },
+  { href: '#contact', label: 'Contact' },
+];
 
-    const [mobileView, setMobileView] = useState(false);
+const externalNav = [
+  {
+    href: 'https://www.linkedin.com/in/grayalistair',
+    label: 'LinkedIn',
+    external: true,
+  },
+  {
+    href: 'mailto:alistair.gray@hey.com',
+    label: 'Email',
+    external: false,
+  },
+  { href: resume, label: 'Resume', download: 'Alistair-Gray-Resume.pdf' },
+  { href: portfolio, label: 'Portfolio', download: 'Alistair-Gray-Portfolio.pdf' },
+];
 
-    
+function Nav() {
+  const [isOpen, setIsOpen] = useState(false);
 
-    return(
-        <nav className={mobileView ? "navbar-mobile" : "navbar"}>
-            <span>
-                <ul className="nav-list">
-                    <a href="#about">About</a>
-                    <a href="#companies">Companies</a>
-                    <a href="#examples">Examples</a>
-                    <a href="#publications">Publications</a>
-                    <a href="#contact">Contact</a>
-                    
-                </ul>
-            </span>
-            <span>
-                <a href="https://www.linkedin.com/in/grayalistair">LinkedIn</a>
-                <a href="mailto:alistair.gray@hey.com">Email</a>
-                <a href={resume} download="resume.pdf">Resume</a>
-                <a href={portfolio} download="portfolio.pdf">Porfolio</a>
-            </span>
-      </nav>
-    )
+  // Toggle for mobile menu
+  const toggleMenu = () => setIsOpen(!isOpen);
+
+  return (
+    <nav className="navbar" aria-label="Primary">
+      {/* Mobile toggle button */}
+      <button
+        className="nav-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded={isOpen}
+        onClick={toggleMenu}
+      >
+        <span className="sr-only">Menu</span>
+        ☰
+      </button>
+
+      <div
+        id="primary-navigation"
+        className={isOpen ? 'nav-links open' : 'nav-links'}
+      >
+        {/* Internal section links */}
+        <ul className="nav-list" role="list">
+          {internalNav.map(({ href, label }) => (
+            <li key={href}>
+              <a href={href} onClick={() => setIsOpen(false)}>
+                {label}
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        {/* External/download links */}
+        <ul className="nav-actions" role="list">
+          {externalNav.map(({ href, label, external, download }) => (
+            <li key={label}>
+              <a
+                href={href}
+                {...(download ? { download } : {})}
+                {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+              >
+                {label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </nav>
+  );
 }
 
 export default Nav;

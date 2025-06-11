@@ -1,73 +1,57 @@
 import React from 'react';
 
+const sections = [
+  {
+    title: 'Intro',
+    body: `I’m Alistair, a technical writer specialising in APIs, cloud platforms, and AI-backed tooling.`,
+  },
+  {
+    title: 'Why I Write',
+    body: `Writing is infrastructure. Clear docs align teams, drive adoption, and keep support tickets out of your inbox.`,
+  },
+  {
+    title: 'Experience',
+    body: `
+I’ve spent nearly five years producing SDK guides, API references, and knowledge bases
+— most recently at **Leanspace**, where I pioneered a space‑grade documentation standard.  
+Check out my [public blog posts](https://leanspace.io/stories/) for examples.`,
+  },
+  {
+    title: 'Approach',
+    body: `
+I collaborate with engineers and PMs to mine the details, then apply information
+architecture, user research, and docs‑as‑code workflows to deliver scalable content.`,
+  },
+  {
+    title: 'What I Do',
+    body: `
+If your product needs developer‑ready docs, onboarding tutorials, or AI‑powered help
+systems, I can build them – and the processes to keep them evergreen.`,
+  },
+];
+
 function Intro() {
-    return(
-        <div className='intro content-wrap'>
-            <div className='intro-content'>
-                <div className='intro-content-block'>
-                    <div>
-                        <h4>Intro</h4>
-                    </div>
-                    <div>
-                        <p>
-                            Hi, I'm Alistair and I love to write.
-                        </p>
-                    </div>
-                </div>
-                <div className='intro-content-block'>
-                    <div>
-                        <h4>Why </h4>
-                    </div>
-                    <div>
-                        <p>I think writing has the tremendous power to inspire. I have used it to create worlds, build bridges and spark interest.</p>
-                    </div>
-                </div>
-                <div className='intro-content-block'>
-                    <div>
-                        <h4>
-                            Experience
-                        </h4>
-                    </div>
-                    <div>
-                        <p>
-                            I have been writing for the past 8 years with 4 years of technical and UX writing
-                        </p>
-                        <p><a href="https://leanspace.io/blog/">For my most recent writing, that's not hidden behind NDAs, check out my company's blog</p>
-                    </div>
-                </div>
-                <div className='intro-content-block'>
-                    <div>
-                        <h4>
-                            Approach
-                        </h4>
-                    </div>
-                    <div>
-                        <p>
-                            I like to work within a team environment for brain storming, fine tuning and refinement.  
-                        </p>
-                        <p>
-                            I utilise a mix of empathy, data analysis, and UX principles to craft good copy.
-                        </p>
-                    </div>
-                </div>
-                <div className='intro-content-block'>
-                    <div>
-                        <h4>
-                            What I do
-                        </h4>
-                    </div>
-                    <div>
-                        <p>
-                            I can help you and your team create content that is both meaningful and impactful. 
-                        </p>
-                        <p>
-                            I can also craft documentation that is simple to follow and easy to understand. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
+  return (
+    <section className="intro content-wrap" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">About Me</h2>
+
+      <div className="intro-content">
+        {sections.map(({ title, body }) => (
+          <div key={title} className="intro-content-block">
+            <h3>{title}</h3>
+            <p>
+              {/** Render markdown-like line breaks */ body.split('\n').map((line, i) => (
+                <React.Fragment key={i}>
+                  {line}
+                  <br />
+                </React.Fragment>
+              ))}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }
 
 export default Intro;
