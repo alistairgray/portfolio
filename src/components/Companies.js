@@ -5,6 +5,8 @@ import paprikaLogo from './assets/images/paprika-logo.png';
 import neu21Logo from './assets/images/neu21-logo.png';
 import ozgravLogo from './assets/images/ozgrav-logo.png';
 import leanspaceLogo from './assets/images/leanspace.png';
+import ibmLogo from './assets/images/IBM_logo.svg.png';
+import reeceLogo from './assets/images/REH.AX_BIG.png';
 
 const companies = [
   { name: 'Myer',      logo: myerLogoUrl,   url: 'https://www.myer.com.au' },
@@ -12,6 +14,8 @@ const companies = [
   { name: 'Paprika',   logo: paprikaLogo,   url: 'https://thelucidplanet.co' },
   { name: 'Neu21',     logo: neu21Logo,     url: 'https://neu21.com' },
   { name: 'OzGrav',    logo: ozgravLogo,    url: 'https://www.ozgrav.org' },
+  { name: 'IBM',    logo: ibmLogo,    url: 'https://www.ibm.com' },
+  { name: 'Reece Group',    logo: reeceLogo,    url: 'https://group.reece.com/en-us' },
   { name: 'Leanspace', logo: leanspaceLogo, url: 'https://leanspace.io' },
 ];
 

@@ -9,10 +9,6 @@ function Examples() {
     <>
       <section className="examples content-wrap" aria-labelledby="examples-heading">
         <h2 id="examples-heading">Writing Samples</h2>
-        <p className="examples-intro">
-          Most client work is under NDA, but these public excerpts show my range as a
-          technical writer, author, and storyteller.
-        </p>
 
         {categories.map((cat) => (
           <div key={cat} className="examples-group">

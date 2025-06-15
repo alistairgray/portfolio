@@ -7,11 +7,15 @@ import reactIcon from './assets/images/icons8-react-native.svg'
 import figmaIcon from './assets/images/icons8-figma.svg'
 import sketchIcon from './assets/images/icons8-sketch.svg'
 import canvaIcon from './assets/images/icons8-canva.svg'
+import swaggerIcon from './assets/images/swagger.svg'
+import githubIcon from './assets/images/GitHub_(4).png'
+import amazonIcon from './assets/images/amazon-q-logo.svg'
+import codyIcon from './assets/images/Cody_logo.png'
 
 const skills = [
   { name: 'Markdown & Docs‑as‑Code', icon: markdownIcon, category: 'Documentation' },
-  { name: 'OpenAPI / Swagger', icon: './images/icons8-openapi.svg', category: 'Documentation' },
-  { name: 'Git / GitHub', icon: './images/icons8-git.svg', category: 'Documentation' },
+  { name: 'OpenAPI / Swagger', icon: swaggerIcon, category: 'Documentation' },
+  { name: 'Git / GitHub', icon: githubIcon, category: 'Documentation' },
 
   { name: 'HTML5', icon: html5Icon, category: 'Front‑End' },
   { name: 'CSS3', icon: cSS3Icon, category: 'Front‑End' },
@@ -21,7 +25,8 @@ const skills = [
   { name: 'Sketch', icon: sketchIcon, category: 'Design' },
   { name: 'Canva', icon: canvaIcon, category: 'Design' },
 
-  { name: 'Amazon Q / Cody RAG', icon: '/images/icons8-ai.svg', category: 'AI Tools' },
+  { name: 'Amazon Q', icon: amazonIcon, category: 'AI Tools' },
+  { name: 'Cody', icon: codyIcon, category: 'AI Tools' },
 ];
 
 function Skillset() {

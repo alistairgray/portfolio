@@ -15,6 +15,7 @@ function About() {
         <a href="#intro" className="button" role="button">
           Let’s go
         </a>
+        <a href='/docs/Introduction' className="button" role="button">See the API docs</a>
       </div>
     </div>
   );
