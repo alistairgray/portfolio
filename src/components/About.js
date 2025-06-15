@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -15,7 +16,9 @@ function About() {
         <a href="#intro" className="button" role="button">
           Let’s go
         </a>
-        <a href='/docs/Introduction' className="button" role="button">See the API docs</a>
+        <Link to="/docs/Introduction" className="button">
+        See the API docs
+        </Link>
       </div>
     </div>
   );
