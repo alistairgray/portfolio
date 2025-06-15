@@ -1,0 +1,26 @@
+Alistair has 5 years of technical writing experience, although he has been writing in roles for most of his career, stretching back 18 years.
+
+Alistair currently works as a Technical Writer at Leanspace, where he creates API and service documentation that supports operations for multiple satellites. The types of documentation he develops include API and SDK guides, cloud-based tool documentation, knowledge bases, tutorials, workflows, templates, visual content, and style guides.
+
+He has led initiatives translating complex software and space engineering topics into accessible content suitable for diverse audiences, enhancing documentation based on feedback from customers, Product Managers, and Developers. Alistair has also successfully integrated advanced AI services like Amazon Q and Cody, leveraging models such as Claude and ChatGPT, to create a robust sales and product knowledge ecosystem based on Retrieve-Augment-Generate (RAG) systems. Additionally, he contributes to marketing by authoring and editing blogs, web copy, and collateral, while mentoring junior team members in technical skills and career development.
+
+As a freelance Copywriter at The Gratitude Company in the Netherlands, Alistair delivered an interview-style article featured in WFO's June Issue.
+
+At Paprika XYZ, a Web3 startup based on the Ethereum Network, Alistair authored weekly creative content titled "The Lucid Planet."
+
+During his tenure at IBM, Alistair was a Junior AI Software Engineer and Technical Writer, where he developed machine learning-based solutions for IBM Watson-powered chatbots. His work encompassed programming, UX writing, creating interactive prompts, writing API and tutorial documentation, and stakeholder management.
+
+Alistair authored and published a self-help book titled "Finding Your Fire within a Burning World," which focused on personal growth and resilience.
+
+Previously at ANZ Bank, Alistair was a Junior UX Researcher, Designer, and Technical Writer. He produced instruction manuals and how-to guides, crafted short-form UX writing, authored technical content in Confluence, analyzed customer data to enhance user experience, collaborated with visual designers and senior UX researchers, and successfully secured budget approval through strategic proposals.
+
+As Founder of Graydient Aerospace, Alistair established a startup aimed at bridging manufacturing firms with data science companies to enhance aerospace production capabilities.
+
+In his role as an Agile Coach and Consultant at NEU21 (formerly Agile Eleven), Alistair consulted with 13 enterprise organizations on agile transformation and process improvements, authored instructional training content, and collaborated on marketing copy and blogs.
+
+Alistair holds qualifications in Software Engineering from General Assembly, Melbourne, and a Bachelor of Business from Swinburne University of Technology, Melbourne.
+
+His technical skills include technical writing, API documentation, docs-as-code, Markdown, information architecture, UX writing, Confluence, Jira, large language model configuration and prompt engineering (Q, ChatGPT, Claude, Cody), AI RAG development, natural language processing (NLP) with IBM Watson, Figma, DrawIO, React, NodeJS, Python, infrastructure-as-code (Terraform), Amazon Web Services (AWS), WordPress, and Agile/Lean methodologies.
+
+He is a native English speaker with limited working proficiency in European Portuguese and elementary proficiency in French.
+

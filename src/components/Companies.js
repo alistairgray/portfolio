@@ -1,32 +1,41 @@
 import React from 'react';
+import myerLogoUrl from './assets/images/myer-logo.png';
+import anzLogoUrl from './assets/images/ANZ-Logo-2009.svg.png';
+import paprikaLogo from './assets/images/paprika-logo.png';
+import neu21Logo from './assets/images/neu21-logo.png';
+import ozgravLogo from './assets/images/ozgrav-logo.png';
+import leanspaceLogo from './assets/images/leanspace.png';
 
+const companies = [
+  { name: 'Myer',      logo: myerLogoUrl,   url: 'https://www.myer.com.au' },
+  { name: 'ANZ',       logo: anzLogoUrl,    url: 'https://www.anz.com' },
+  { name: 'Paprika',   logo: paprikaLogo,   url: 'https://thelucidplanet.co' },
+  { name: 'Neu21',     logo: neu21Logo,     url: 'https://neu21.com' },
+  { name: 'OzGrav',    logo: ozgravLogo,    url: 'https://www.ozgrav.org' },
+  { name: 'Leanspace', logo: leanspaceLogo, url: 'https://leanspace.io' },
+];
 
 function Companies() {
-    return (
-        <div>
-            <h2>Companies</h2>
-            <div className="companies-item">
-                <div>
-                    <img src="/images/myer_logo.svg" alt="myer"/>
-                </div>
-                <div>
-                    <img src="/images/ANZ_Logo.svg" alt="anz"/>
-                </div>
-                <div>
-                    <img src="/images/paprika-logo.png" alt="paprika"/>
-                </div>   
-                <div>
-                    <img src="/images/neu21-logo.png" alt="neu21"/>
-                </div>
-                <div>     
-                    <img src="/images/ozgrav-logo.png" alt="ozgrav"/>
-                </div>
-                <div>
-                    <img src="/images/leanspace.png" alt="leanspace"/>
-                </div>
-            </div>
-        </div>
-    )
+  return (
+    <section className="companies content-wrap" aria-labelledby="companies-heading">
+      <h2 id="companies-heading">Companies</h2>
+
+      <ul className="companies-list" role="list">
+        {companies.map(({ name, logo, url }) => (
+          <li key={name} className="companies-item">
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              <img
+                src={logo}
+                alt={`${name} logo`}
+                loading="lazy"
+                height="60"
+              />
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
 }
 
 export default Companies;
