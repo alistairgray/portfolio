@@ -14,7 +14,7 @@ function Examples() {
           <div key={cat} className="examples-group">
             <h3>{cat}</h3>
 
-            <ul className="examples-list" role="list">
+            <ul className="examples-list">
               {examples
                 .filter((e) => e.category === cat)
                 .map(({ title, excerpt, url, external, year, slug }) => (

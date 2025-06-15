@@ -51,7 +51,7 @@ function Nav() {
         className={isOpen ? 'nav-links open' : 'nav-links'}
       >
         {/* Internal section links */}
-        <ul className="nav-list" role="list">
+        <ul className="nav-list">
           {internalNav.map(({ href, label }) => (
             <li key={href}>
               <a href={href} onClick={() => setIsOpen(false)}>
@@ -62,7 +62,7 @@ function Nav() {
         </ul>
 
         {/* External/download links */}
-        <ul className="nav-actions" role="list">
+        <ul className="nav-actions">
           {externalNav.map(({ href, label, external, download }) => (
             <li key={label}>
               <a

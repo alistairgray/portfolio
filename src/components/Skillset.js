@@ -41,7 +41,7 @@ function Skillset() {
         <div key={cat} className="skill-category">
           <h3>{cat}</h3>
 
-          <ul className="skill-list" role="list">
+          <ul className="skill-list">
             {skills
               .filter((s) => s.category === cat)
               .map(({ name, icon }) => (

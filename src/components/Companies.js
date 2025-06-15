@@ -24,7 +24,7 @@ function Companies() {
     <section className="companies content-wrap" aria-labelledby="companies-heading">
       <h2 id="companies-heading">Companies</h2>
 
-      <ul className="companies-list" role="list">
+      <ul className="companies-list">
         {companies.map(({ name, logo, url }) => (
           <li key={name} className="companies-item">
             <a href={url} target="_blank" rel="noopener noreferrer">

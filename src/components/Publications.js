@@ -98,7 +98,7 @@ function Publications() {
         <div key={category} className="publications-section">
           <h3>{category}</h3>
 
-          <ul className="publications-list" role="list">
+          <ul className="publications-list">
             {items.map(({ title, year, url }) => (
               <li key={title} className="publications-item">
                 <article>
