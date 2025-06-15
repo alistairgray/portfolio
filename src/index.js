@@ -1,22 +1,14 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+
 import './styles.css';
-import PortfolioApp from './components/PortfolioApp';
-import reportWebVitals from './reportWebVitals';
+import App from './components/PortfolioApp';
 
-// Optional routing – comment out if not using react-router
-// import { BrowserRouter } from 'react-router-dom';
-
-const container = document.getElementById('root');
-const root = createRoot(container);
-
-root.render(
+createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <BrowserRouter> */}
-      <PortfolioApp />
-    {/* </BrowserRouter> */}
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
-
-// Web vitals (optional)
-reportWebVitals();

@@ -1,17 +1,17 @@
 import React from 'react';
-import myerLogo from '../assets/myer_logo.svg';
-import anzLogo from '../assets/ANZ_Logo.svg';
-import paprikaLogo from '../assets/paprika-logo.png';
-import neu21Logo from '../assets/neu21-logo.png';
-import ozgravLogo from '../assets/ozgrav-logo.png';
-import leanspaceLogo from '../assets/leanspace.png';
+import myerLogoUrl from './assets/images/myer-logo.png';
+import anzLogoUrl from './assets/images/ANZ-Logo-2009.svg.png';
+import paprikaLogo from './assets/images/paprika-logo.png';
+import neu21Logo from './assets/images/neu21-logo.png';
+import ozgravLogo from './assets/images/ozgrav-logo.png';
+import leanspaceLogo from './assets/images/leanspace.png';
 
 const companies = [
-  { name: 'Myer', logo: myerLogo, url: 'https://www.myer.com.au' },
-  { name: 'ANZ', logo: anzLogo, url: 'https://www.anz.com' },
-  { name: 'Paprika XYZ', logo: paprikaLogo, url: 'https://thelucidplanet.co' },
-  { name: 'Neu21', logo: neu21Logo, url: 'https://neu21.com' },
-  { name: 'OzGrav', logo: ozgravLogo, url: 'https://www.ozgrav.org' },
+  { name: 'Myer',      logo: myerLogoUrl,   url: 'https://www.myer.com.au' },
+  { name: 'ANZ',       logo: anzLogoUrl,    url: 'https://www.anz.com' },
+  { name: 'Paprika',   logo: paprikaLogo,   url: 'https://thelucidplanet.co' },
+  { name: 'Neu21',     logo: neu21Logo,     url: 'https://neu21.com' },
+  { name: 'OzGrav',    logo: ozgravLogo,    url: 'https://www.ozgrav.org' },
   { name: 'Leanspace', logo: leanspaceLogo, url: 'https://leanspace.io' },
 ];
 

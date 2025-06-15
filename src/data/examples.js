@@ -1,5 +1,12 @@
 export const examples = [
   {
+  title: 'Widget API Reference',
+  category: 'Technical Writing',
+  year: 2025,
+  excerpt: 'Introduction to Widgets',
+  slug: 'Introduction'   // corresponds to Introduction.md
+  },
+  {
     title: 'Easily handle contingencies with Command Sequences',
     category: 'Technical Writing',
     year: 2025,
@@ -14,6 +21,7 @@ export const examples = [
     year: 2021,
     excerpt:
       'Why current hiring funnels fail candidates—and how shifting to a custody‑of‑talent mindset changes everything.',
+    url: ''  
   },
   {
     title: 'Finding Your Fire Within a Burning World',
@@ -21,6 +29,7 @@ export const examples = [
     year: 2020,
     excerpt:
       'A practical self‑help framework written during the pandemic to help readers map goals and regain momentum.',
+      url: ''
   },
   {
     title: 'Lucid Planet – Episode 5',
@@ -28,5 +37,6 @@ export const examples = [
     year: 2019,
     excerpt:
       'Silvae confronts a hidden oath amid iridescent crystals. This chapter demonstrates descriptive narrative world‑building.',
-  },
+    url: ''  
+  }
 ];

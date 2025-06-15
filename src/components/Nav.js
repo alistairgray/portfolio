@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import resume from '../assets/data/resume.pdf';
-import portfolio from '../assets/data/portfolio.pdf';
+import resume from './assets/data/resume.pdf';
+import portfolio from './assets/data/portfolio.pdf';
 
 const internalNav = [
   { href: '#about', label: 'About' },

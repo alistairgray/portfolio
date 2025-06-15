@@ -1,0 +1,84 @@
+PROFILE
+
+Senior Technical Writer with 5 years experience and a proven track record in creating impactful content for the space industry, cloud computing, AI, Web3 startups, retail, and banking sectors. Seeking opportunities to leverage my skills with companies that drive impact.
+
+EXPERIENCE
+
+Technical Writer | Leanspace, Permanent CDI, France, 					         Oct 2022 – Present
+
+•	Pioneered a new space-grade API and service documentation standard that is powering multiple satellites today.
+•	Led the creation and management of API, SDK, cloud based tools, and knowledge base technical documentation for the space industry.
+•	Translated complex software and space engineering topics for a broad audience.
+•	Utilized AI services Amazon Q and Cody, powered by Claude and ChatGPT to build a sales and product knowledge ecosystem (RAG).
+•	Developed API tutorials, workflows, templates, visual content, and style guides, streamlining the documentation process.
+•	Integrated feedback from customers, Product Managers and Developers to enhance the documentation experience.
+•	Authored and edited marketing copy for blogs, website, and collateral.
+•	Mentored Junior team members in technical skills and career development.
+
+Copywriter | The Gratitude Company, Remote Freelance, Netherlands, 				         May 2022
+
+•	Delivered an interview-style article for WFO's June Issue.
+
+Creative Writer | Paprika XYZ, Remote Contract, Netherlands, 				        Apr 2022 – Jul 2022	
+•	Authored weekly content for a Web3 start-up on the Ethereum Network.
+•	Series name: "The Lucid Planet".
+
+Junior AI Software Engineer & Technical Writer| IBM, Australia and Netherlands, Contract,                  Jul 2021 – Mar 2022
+
+•	Developed machine learning-based solutions for IBM Watson powered chatbots, involving programming, UX writing, and stakeholder management.
+•	Created basic prompts to guide a user through an e-commerce and training experience
+•	Wrote short-form UX copy for AI interactions for training and testing purposes, adjusting based on client feedback.
+•	Wrote API and tutorial documentation to support the project
+
+Published Author | Self, Remote, Australia, 				       		    May 2020 – Nov 2020
+
+•	Wrote and published a self-help book: Finding Your Fire within a Burning World
+
+Junior UX Researcher and Designer & Technical Writer | ANZ Bank, Contract, Australia,              	       Feb 2016 – Feb 2017
+
+•	Developed instruction manuals for internal banking processes including how-to guides for UX research
+•	Crafted short-form UX writing for banking and recruitment web pages.
+•	Authored technical content using Confluence for instructional manuals, design documents, and onboarding.
+•	Analyzed customer data, including interviews and reports, to enhance user experiences.
+•	Collaborated with visual designers and senior UX researchers to ensure high-quality user experiences with the appropriate tone of voice.
+•	Successfully drafted proposal for strategic goals, securing budget approval.
+
+Founder | Graydient Aerospace, Australia                                                                                        	      Oct 2019 – May 2020
+
+•	Established a startup to bridge manufacturing and data science firms for aerospace production.
+
+Agile Coach and Consultant | NEU21 (Formerly Agile Eleven), Permanent, Australia                                 Mar 2018 – Oct 2019
+
+•	Consulted 13 enterprise organizations on agile transformation and process improvement.
+•	Authored instructional training content for Agile Transformations and Lean process improvement.
+•	Collaborated with the marketing team and founders on copywriting for the company webpage and regular blogs. 
+
+EDUCATION
+Software Engineering | General Assembly, Melbourne (2021)
+Bachelor of Business | Swinburne University of Technology, Melbourne (2015) 
+
+SKILLS
+
+•	Technical Writing
+•	API Documentation
+•	Docs-as-code
+•	Markdown
+•	ReadMe, Stoplight
+•	Information Architecture
+•	UX Writing
+•	Confluence, Jira
+•	Large language model (LLM) Configuration and Prompt Engineering (Q, ChatGPT, Claude, Cody)
+•	AI RAG development
+•	Natural Language Processing (NLP) - IBM Watson
+•	Figma, DrawIO
+•	React, NodeJS, Python
+•	Infrastructure-as-code (Terraform)
+•	Amazon Web Services (AWS)
+•	Wordpress
+•	Agile and Lean Methodologies
+
+LANGUAGES
+
+•	English (Native)
+•	European Portuguese (Limited Working Proficiency)
+•	French (Elementary Proficiency)

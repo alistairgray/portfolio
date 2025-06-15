@@ -1,20 +1,25 @@
 import React from 'react';
 
-// If these images are in /public/images, the src paths are fine.
-// If they’re in src/assets, import them instead (Webpack will bundle).
+import markdownIcon from './assets/images/icons8-markdown.png'
+import html5Icon from './assets/images/icons8-html-5.svg'
+import cSS3Icon from './assets/images/icons8-css3.svg'
+import reactIcon from './assets/images/icons8-react-native.svg'
+import figmaIcon from './assets/images/icons8-figma.svg'
+import sketchIcon from './assets/images/icons8-sketch.svg'
+import canvaIcon from './assets/images/icons8-canva.svg'
 
 const skills = [
-  { name: 'Markdown & Docs‑as‑Code', icon: '/images/icons8-markdown.svg', category: 'Documentation' },
-  { name: 'OpenAPI / Swagger', icon: '/images/icons8-openapi.svg', category: 'Documentation' },
-  { name: 'Git / GitHub', icon: '/images/icons8-git.svg', category: 'Documentation' },
+  { name: 'Markdown & Docs‑as‑Code', icon: markdownIcon, category: 'Documentation' },
+  { name: 'OpenAPI / Swagger', icon: './images/icons8-openapi.svg', category: 'Documentation' },
+  { name: 'Git / GitHub', icon: './images/icons8-git.svg', category: 'Documentation' },
 
-  { name: 'HTML5', icon: '/images/icons8-html-5.svg', category: 'Front‑End' },
-  { name: 'CSS3', icon: '/images/icons8-css3.svg', category: 'Front‑End' },
-  { name: 'React', icon: '/images/icons8-react-native.svg', category: 'Front‑End' },
+  { name: 'HTML5', icon: html5Icon, category: 'Front‑End' },
+  { name: 'CSS3', icon: cSS3Icon, category: 'Front‑End' },
+  { name: 'React', icon: reactIcon, category: 'Front‑End' },
 
-  { name: 'Figma', icon: '/images/icons8-figma.svg', category: 'Design' },
-  { name: 'Sketch', icon: '/images/icons8-sketch.svg', category: 'Design' },
-  { name: 'Canva', icon: '/images/icons8-canva.svg', category: 'Design' },
+  { name: 'Figma', icon: figmaIcon, category: 'Design' },
+  { name: 'Sketch', icon: sketchIcon, category: 'Design' },
+  { name: 'Canva', icon: canvaIcon, category: 'Design' },
 
   { name: 'Amazon Q / Cody RAG', icon: '/images/icons8-ai.svg', category: 'AI Tools' },
 ];
