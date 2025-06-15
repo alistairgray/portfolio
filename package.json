@@ -13,7 +13,8 @@
     "react-icons": "^5.5.0",
     "react-markdown": "^7.0.1",
     "react-router-dom": "^6.30.1",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "rehype-raw": "^7.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

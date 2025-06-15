@@ -11,6 +11,7 @@ import Companies from './Companies';
 import Publications from './Publications';
 import Contact from './Contact';
 import DocsLayout from './DocsLayout';
+import BlogLayout from './BlogLayout';
 
 const PortfolioApp = () => (
   <>
@@ -37,6 +38,8 @@ const PortfolioApp = () => (
 
       {/* Docs pages */}
       <Route path="/docs/:docSlug" element={<DocsLayout />} />
+      {/* Blog pages */}
+      <Route path="/blog/:slug"   element={<BlogLayout />} />
 
       {/* Fallback */}
       <Route path="*" element={<p style={{ padding: '2rem' }}>404 – page not found.</p>} />

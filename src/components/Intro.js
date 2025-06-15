@@ -3,32 +3,32 @@ import React from 'react';
 const sections = [
   {
     title: 'Intro',
-    body: `I’m Alistair, a technical writer specialising in APIs, cloud platforms, and AI-backed tooling.`,
+    body: `I’m Alistair, a technical writer with nearly five years of experience turning APIs, cloud platforms, and AI-backed tools into clear, developer-friendly docs.`,
   },
   {
     title: 'Why I Write',
-    body: `Writing is infrastructure. Clear docs align teams, drive adoption, and keep support tickets out of your inbox.`,
+    body: `Writing is the best tool that I have for improving people’s days. It's the most natural skill that I have, and one that I enjoy the most.`,
+  },
+  {
+    title: 'My Rule of Thumb for Technical Writing',
+    body: `If my documentation can enable a junior dev to build something based on my docs, it means a senior engineer will breeze through, having a great time also. The way I write involves focusing on clarity, simplicity, and keeping an active and personable a tone of voice, so it just feels like it's me directly helping the developer or the person reading non-docs content. `,
   },
   {
     title: 'Experience',
     body: `
-I’ve spent nearly five years producing SDK guides, API references, and knowledge bases
-— most recently at **Leanspace**, where I pioneered a space‑grade documentation standard.  
-Check out my [public blog posts](https://leanspace.io/stories/) for examples.`,
+    For the past 5 years, I have been writing technical writing specific work in API and service specific docs, instructional manuals, knowledge bases, and technical blogs. Before that I have written other forms of content, including publishing a self-help book.
+
+    Most recently, at Leanspace, I developed API references and services docs from scratch, turning them into a critical part of the company's sales offering. I also introduced and integrated advanced AI-driven RAG tools (like Amazon Q and Cody) to revolutionize how teams find and use knowledge to improve their sales and customer solutions.
+    
+    Check out my examples below to learn more.`,
   },
   {
     title: 'Approach',
     body: `
-I collaborate with engineers and PMs to mine the details, then apply information
-architecture, user research, and docs‑as‑code workflows to deliver scalable content.`,
-  },
-  {
-    title: 'What I Do',
-    body: `
-If your product needs developer‑ready docs, onboarding tutorials, or AI‑powered help
-systems, I can build them – and the processes to keep them evergreen.`,
-  },
+    My approach is to act as a 'translator' between different stakeholders. I think in terms of systems, allowing me to quickly understand how complex things work, before writing content in explainable concepts for a wide audience.`,
+  }
 ];
+
 
 function Intro() {
   return (

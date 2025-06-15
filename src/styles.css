@@ -140,7 +140,7 @@ h3 { font-size: 1.5rem; margin-bottom: .25rem; }
 .about { background: var(--clr-bg-light); color: var(--clr-navy); text-align: center; }
 .about h2 { font-size: 1.8rem; }
 .about .button {
-  display: inline-block;
+  display: inline-flex;
   margin-top: 1rem;
   padding: .65rem 1.5rem;
   border: 4px solid var(--clr-navy);
@@ -148,6 +148,7 @@ h3 { font-size: 1.5rem; margin-bottom: .25rem; }
   font-size: 1.4rem;
   background: #fff;
   color: var(--clr-navy);
+  margin-right: 25px;
 }
 .about .button:hover { background: var(--clr-navy); color: #fff; }
 
@@ -247,7 +248,7 @@ h3 { font-size: 1.5rem; margin-bottom: .25rem; }
 
 .examples-intro { max-width: 650px; margin: 0 auto; border: 1px black; margin-bottom: 25px;}
 
-.examples-group { margin-bottom: 2rem; }
+.examples-group { margin-bottom: 2rem; max-width: 650px; margin: auto;}
 
 .examples-list {
   display: grid;
@@ -279,7 +280,7 @@ h3 { font-size: 1.5rem; margin-bottom: .25rem; }
    ======================================================= */
 .publications { background: var(--clr-bg-light); color: var(--clr-navy); }
 
-.publications-section { margin-bottom: 2rem; }
+.publications-section { margin-bottom: 2rem; max-width: 850px; margin: auto;}
 
 .publications-list {
   display: grid;
