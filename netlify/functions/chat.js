@@ -1,12 +1,7 @@
 // netlify/functions/chat.js
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch');
-
-// ---- load pre‑embedded résumé chunks ----
-const cvData = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'cvEmbeddings.json'), 'utf8')
-);
+const cvData = require('./cvEmbeddings.json');
 
 // ---- tiny helpers ----
 const dot = (a, b) => a.reduce((s, v, i) => s + v * b[i], 0);
