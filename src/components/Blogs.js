@@ -10,7 +10,7 @@ function Blogs() {
         A few public pieces that show how I write when no NDA is breathing down my neck.
       </p>
 
-      <ul className="examples-list" role="list">
+      <ul className="examples-list">
         {blogs.map(({ slug, title, excerpt, year }) => (
           <li key={slug} className="examples-card">
             <article>
