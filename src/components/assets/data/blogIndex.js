@@ -1,6 +1,5 @@
 // src/data/blogIndex.js
-export default 
-blogList = [
+export default [
  {
     slug: 'why-excel-for-mission-planning-is-a-bad-idea',
     title: 'Why Excel for Mission Planning is a bad idea',
