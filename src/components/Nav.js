@@ -8,7 +8,6 @@ const internalNav = [
   { href: '#examples', label: 'Examples' },
   { href: '#publications', label: 'Publications' },
   { href: '/docs/Introduction', label: 'Docs' },
-  { href: '/blog', label: 'Blog Examples' },
   { href: '#contact', label: 'Contact' },
 ];
 
