@@ -1,7 +1,9 @@
 // src/data/docsIndex.js
 export const docsIndex = [
-  { slug: 'Introduction', title: 'Introduction' },
-  { slug: 'GettingStarted',  title: 'Getting Started' },
-  { slug: 'UseCases', title: 'Use Cases' },
+  { slug: 'introduction', title: 'Introduction' },
+  { slug: 'staging-action-instances-via-a-holding-bay',  title: 'Staging Action Instances via a Holding Bay' },
+  { slug: 'interfacing-action-dispatch-system-with-relay-engine',  title: 'Interfacing Action Dispatch Systems with a Relay Engine' },
+  { slug: 'creating-your-custom-action-serializer-plugin-with-ads-development-kit',  title: 'Creating your custom action serializer' },
+  { slug: 'use-cases', title: 'Use Cases' },
   // add more docs here
 ];
