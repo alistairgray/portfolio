@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkSlug from 'remark-slug';
 import remarkAutolinkHeadings from 'remark-autolink-headings';
-import { DOC_URLS } from '../docs/manifest';
+import { DOC_URLS } from './assets/docs/manifest'
 
 const slugify = (s='') => s.toLowerCase().trim().replace(/\s+/g, '-');
 
