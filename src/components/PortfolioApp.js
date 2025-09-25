@@ -10,7 +10,7 @@ import Examples from './Examples';
 import Companies from './Companies';
 import Publications from './Publications';
 import Contact from './Contact';
-import DocsIndexPage from './components/DocsIndexPage';
+import DocsIndexPage from './DocsIndexPage';
 import DocsLayout from './DocsLayout';
 import BlogLayout from './BlogLayout';
 import Blogs from './Blogs';
