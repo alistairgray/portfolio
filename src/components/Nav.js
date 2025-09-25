@@ -7,7 +7,7 @@ const internalNav = [
   { href: '#companies', label: 'Companies' },
   { href: '#examples', label: 'Examples' },
   { href: '#publications', label: 'Publications' },
-  { href: '/docs/Introduction', label: 'Docs' },
+  { href: '/docs/introduction', label: 'Docs' },
   { href: '#contact', label: 'Contact' },
 ];
 

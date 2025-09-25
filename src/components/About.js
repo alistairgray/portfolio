@@ -16,7 +16,7 @@ function About() {
         <a href="#intro" className="button" role="button">
           Let’s go
         </a>
-        <Link to="/docs/Introduction" className="button">
+        <Link to="/docs/introduction" className="button">
         See the API docs
         </Link>
       </div>

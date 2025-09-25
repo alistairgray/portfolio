@@ -10,6 +10,7 @@ import Examples from './Examples';
 import Companies from './Companies';
 import Publications from './Publications';
 import Contact from './Contact';
+import DocsIndexPage from './components/DocsIndexPage';
 import DocsLayout from './DocsLayout';
 import BlogLayout from './BlogLayout';
 import Blogs from './Blogs';
@@ -38,6 +39,7 @@ const PortfolioApp = () => (
       />
 
       {/* Docs pages */}
+      <Route path="/docs" element={<DocsIndexPage />} />
       <Route path="/docs/:docSlug" element={<DocsLayout />} />
 
       <Route path="/blog" element={<Blogs />} />  
