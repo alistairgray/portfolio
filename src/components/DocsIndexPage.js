@@ -1,6 +1,6 @@
 // src/components/DocsIndexPage.js (or wherever you list docs)
 import { Link } from 'react-router-dom';
-import { docsIndex } from '../data/docsIndex';
+import { docsIndex } from './data/docsIndex';
 
 export default function DocsIndexPage() {
   return (
