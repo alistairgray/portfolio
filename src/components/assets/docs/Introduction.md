@@ -1,101 +1,52 @@
-# Widgets Introduction
+# Introduction: Action Instances with Holding Bays
 
-Managing dynamic and adaptable user interfaces can be challenging, particularly when widget definitions become intertwined with application logic. Typically, widget configurations remain static, making adjustments cumbersome when real-time scenarios demand flexibility and responsiveness.
+Action Instances with Holding Bays is a new paradigm introduced to the Action Dispatch System. The change means that the Action Instances that you create are ordered in Dispatch Plans.
 
-The Widgets service introduces robust adaptability with reusable components and configurable layouts. It simplifies interface creation, provides fine-grained control over widget interactions, and seamlessly integrates with diverse data sources and platforms.
+This new approach is currently under development and there are goals to integrate Dispatch Plans with the Passes service for transmission planning.
 
-## Benefits
+When Action Instances need to be transmitted, they are staged from the Dispatch Plans to the Holding Bay. The Holding Bay creates a set of API calls, which allows a transmission component to execute the transmission at its specified time. The Holding Bays will be natively integrated with the service, Relay Engine (the transmission component).
 
-* Prepare in advance for dynamic interface scenarios (e.g., different user roles or deliveries)
+The complexity of converting the logical Action Instances to the appropriate binary data is handled by a Serialization Plugin (binary generation per Action Instance). The creation of the final transmission payload is delegated to a transmission component, and therefore there is no such thing as Protocol Transformers in the Holding Bays API suite.
 
-* Gain precise control over widget behavior and layout
+To build your Action Serializer, you need to use the ADS Development Kit (ADK) provided by the Action Dispatch System. The Holding Bay paradigm is compatible only with ADS Development Kit (ADK).
+Action Instances are created based on Action Blueprints. The same Action Blueprints can also be used to create ## Action Instances within Command Queues.
+You can find a usage example on the Holding Bay API Workflow page.
 
-* Implement custom interaction logic
+The new paradigm in the Action Dispatch System is based on the Holding Bays. As mentioned before, the Holding Bay is an entity on which we rely for the Action Instances transmission.
+When you start using this paradigm, the first thing that you create for your Target Unit is a Holding Bay. For each Target Unit you can create only one Holding Bay.
 
-* Easily integrates with any data source or platform
+The Holding Bay fulfills multiple functions:
+• Keeps the information about the plugin and the serialization strategy used for the Action Instances binary generation.
+• Can keep transmission metadata, such as number of packets, Action Instances, bytes sent to the Target Unit since the beginning.
+• Place where Action Instances are referenced for the transmission. The transmission component (natively Relay Engine service) is retrieving Action Instances from the Holding Bay.
+• The Dispatch Plans are attached to a Holding Bay.
+For high transmission performance, the transmission phase mainly consists of staging the Action Instances in a Holding Bay and then retrieving them. This ensures good transmission performance, as the preparation actions are taking place in the Dispatch Plans.
 
-## Features/Functions
+## Action Serialization Strategy
+On a Holding Bay, it is possible to specify which serialization strategy should be applied on the Action Instances that were not transmitted yet.
+Here is how the serialization strategy choice impacts the binary generation:
+• NO_SERIALIZATION: If you want to generate binary outside of the Action Dispatch System, choose this option. In this case, no plugin is required and no binary will be generated in the Action Dispatch System.
+• TEST: If you want to test the transmission workflow without getting a binary that fits the format awaited by your Target Unit, choose this option. A built-in plugin will be used, so there is no need to link to a custom plugin. The binary will contain: command_identifier, execution_time, metadata and arguments.
+• USE_PLUGIN: If you would like to generate a binary for a standalone, you must choose this option. You will need to create and upload your custom Serialization Plugin and then link it to the Holding Bay. The generated binary in this case will fit the needs of your Target Unit, as your plugin will be developed to properly do it.
 
-### Model your widgets
+## Dispatch Plan
 
-The Widgets service allows you to create templates for standard widgets used in your applications.
+A Dispatch Plan is an entity in which Action Instances live. Each Dispatch Plan is linked to a single Holding Bay and to one specific Target Unit. In a Dispatch Plan, you can create Action Instances from your Action Blueprints, update, and delete them.
 
-Widget templates enable you to define the structure, appearance, and interactions of widgets independently from your application’s core logic.
+### Changing the order of Action Instances
+You can also change the order of Action Instances in a Dispatch Plan. This order is respected afterwards by the Holding Bay for the transmission (unless there are some specific rules in the transmission component). You can move Action Instances between the Dispatch Plans of one Holding Bay.
+Once you have created a Dispatch Plan and added your chosen Action Instances you then need to reference them in the Holding Bay. Before this point, you can change the order of the Action Instances, but after referencing them, they will be locked and no further actions, such as changing the order, can take place.
 
-These templates significantly streamline your interface development process. Rather than crafting widgets repeatedly, you simply define them once and reuse them across current and future interfaces.
+This locking is to keep the proper history of actions on Action Instances. Even if they were not transmitted but just removed from the Holding Bay, the Dispatch Plan stays blocked and cannot be used again.
 
-### How Widget Templates work
+### Action Instances
+In this paradigm, Action Instances are created inside of the Dispatch Plans. New Action Instances, or as we call them DP-Action Instances (DP stands for Dispatch Plan) provide more information compared to the Commands in Command Queues.
 
-For each Widget Templte, you specify its properties, default values, and behaviors. When instantiating a widget, you apply the definition, filling in or overriding default properties as needed.
-
-
-
-### Create configurable Widget Layouts
-
-Widget Layouts allow you to organize and group widgets to build coherent and responsive interfaces tailored to different contexts.
-
-
-
-### Adapt to multiple interface scenarios
-
-Prepare multiple layouts for various scenarios, such as administrative dashboards, user profiles, or situational monitoring interfaces. This flexibility helps you swiftly respond to changing requirements or roles.
-
-### Divide Widget Layouts into sections
-
-Efficiently organize complex interfaces by dividing them into manageable sections, such as an overview area, detailed data views, and interactive controls. These segments improve user experience and clarity.
-
-### Fine control
-
-Widgets service provides intuitive tools to rearrange widgets within layouts or transfer widgets between different layouts, ensuring optimal organization and user accessibility.
-
-For example, create layouts for:
-
-* Dashboard overview
-
-* Real-time data monitoring
-
-* User management
-
-Then combine them into unified views tailored to specific user interactions or workflow stages.
-
-
-
-### Integrate Widgets seamlessly with data sources
-
-The Widgets service integrates effortlessly with various data services, ensuring real-time synchronization and accurate representation of data. Visit here to learn more about data source integration.
-
-The service acts as a central interface hub, managing data exchange between widgets and backend services or external platforms, ensuring smooth and reliable interactions.
-
-### Custom state and interaction management
-
-Widgets provides powerful capabilities for managing widget states and user interactions. Define custom states and interactions, such as enabled, disabled, active, or error conditions, tailored specifically to your operational workflow and user requirements.
-
-### Native Integration with Platform services
-
-Thanks to Widgets' open architectural design, the service natively connects to its other services, such as the Widget-Hub and Delivery services. This also means that your own external services can connect with a simple API call.
-
-![Widget Native Integrations](/images/WidgetsArchitecture.drawio.png)
-
-#### Integration with Widget-Hub service
-
-Widgets natively connects with your Widget-Hub services through built-in connectors, simplifying data synchronization, updates, and interaction management. This streamlined integration ensures efficient data-driven user interfaces.
-
-#### Integration with Delivery service
-
-Widgets also integrates with the Delivery service, allowing your interfaces to dynamically respond to real-time events or triggers. This ensures your widgets stay interactive, relevant, and contextually responsive to user needs and operational events.
-
-## Getting Started
-
-### Tutorials
-
-Ready to learn how to implement and manage Widgets effectively? Explore our detailed tutorial here.
-
-## Use Cases
-
-Discover practical applications for Widgets, from user dashboards and monitoring interfaces to dynamic forms and interactive applications. Check out relevant use cases here.
-
-## Technical Information
-
-### Widget metadata management
-
-Widgets service provides advanced tools for managing widget metadata, ensuring accurate data representation, configuration consistency, and seamless integration across various platforms and data sources.
+New Action Instances have the following new fields:
+• dispatchPlanId and holdingBayId which helps to identify where the Action Instance belongs.
+• activityId - in case an Action Instance was created from an activity, we can see from which activity it was created.
+• stagedAt, transmittedAt, abortedAt helps to follow the Action Instance in time through its lifecycle.
+• tags - on new Action Instances tags can be added.
+• state - you can define and manage your own Action Instances lifecycle (the Action Dispatch System internal lifecycle is handled by the status field).
+• transmission related fields including metadata, binary or json payload.
+Even though all the Action Instances live in the Dispatch Plans, you are still able to retrieve all the Action Instances of the Target Unit (upcoming and past) independently of the sequence
