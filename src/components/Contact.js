@@ -29,15 +29,6 @@ function Contact() {
             LinkedIn
           </a>
         </li>
-        <li>
-          <a
-            href="https://twitter.com/_ali_gray"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
-          </a>
-        </li>
       </ul>
 
       <small>© {currentYear} Alistair Gray</small>
